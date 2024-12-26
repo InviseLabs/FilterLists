@@ -44,6 +44,23 @@ pubsub-edge.twitch.tv
 cdn-gl.imrworldwide.com
 
 
+# Required for: Plex
+tvdb2.plex.tv
+dashboard.plex.tv
+staging.plex.tv
+status.plex.tv
+proxy.plex.bz
+proxy.plex.tv
+proxy02.pop.ord.plex.bz
+o1.email.plex.tv
+o2.sg0.plex.tv
+pubsub.plex.bz
+pubsub.plex.tv
+tvthemes.plexapp.com
+cpms.spop10.ams.plex.bz
+cpms35.spop10.ams.plex.bz
+
+
 ##
 # General Whitelist for Common Apps and Services
 ##
@@ -67,13 +84,9 @@ cdn2.optimizely.com
 cdn3.optimizely.com
 cdnjs.cloudflare.com
 clientconfig.passport.net
-cpms.spop10.ams.plex.bz
-cpms35.spop10.ams.plex.bz
-ctldl.windowsupdate.com
 cws.conviva.com
 d2c8v52ll5s99u.cloudfront.net
 d2gatte9o95jao.cloudfront.net
-dashboard.plex.tv
 dataplicity.com
 delivery.vidible.tv
 dev.virtualearth.net
@@ -90,7 +103,6 @@ forums.sonarr.tv
 geo3.ggpht.com
 gfwsl.geforce.com
 giphy.com
-
 gravatar.com
 hls.ted.com
 i.ytimg.com
@@ -113,19 +125,12 @@ no-ip.com
 node.plexapp.com
 ns1.dropbox.com
 ns2.dropbox.com
-o1.email.plex.tv
-o2.sg0.plex.tv
 ocsp.apple.com
 om.cbsi.com
 pings.conviva.com
 placehold.it
 placeholdit.imgix.net
 players.brightcove.net
-proxy.plex.bz
-proxy.plex.tv
-proxy02.pop.ord.plex.bz
-pubsub.plex.bz
-pubsub.plex.tv
 res.cloudinary.com
 s.marketwatch.com
 s.youtube.com
@@ -141,19 +146,13 @@ services.sonarr.tv
 skyhook.sonarr.tv
 spclient.wg.spotify.com
 ssl.p.jwpcdn.com
-staging.plex.tv
-status.plex.tv
-
 t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
 tawk.to
 tedcdn.com
 themoviedb.com
 thetvdb.com
-
 traffic.libsyn.com
-tvdb2.plex.tv
-tvthemes.plexapp.com
 twimg.com
 videos.vidible.tv
 vidtech.cbsinteractive.com
@@ -170,8 +169,6 @@ zee.cws.conviva.com
 #t.co
 #github.com
 #github.io
-nleditor.osi.office.net
-ecs.office.com
 
 
 ##
@@ -268,6 +265,8 @@ userlocation.googleapis.com
 # REQUIRED FOR: MICROSOFT APIs AND SERVICES CONNECTIVITY
 ##
 # General Microsoft APIs and Endpoints required for their services (no telemetry)
+nleditor.osi.office.net
+ecs.office.com
 storage.live.com
 admin.onedrive.com
 officeclient.microsoft.com
@@ -369,6 +368,9 @@ sls.update.microsoft.com
 # Windows Settings Sync
 settings-win.data.microsoft.com
 
+# Windows Location API
+inference.location.live.net
+
 # Microsoft Login
 #live.com
 #g.live.com
@@ -428,7 +430,6 @@ i.s-microsoft.com
 # Xbox Functionality - Found on Reddit
 attestation.xboxlive.com
 cert.mgt.xboxlive.com
-ctldl.windowsupdate.com
 def-vef.xboxlive.com
 device.auth.xboxlive.com
 eds.xboxlive.com
