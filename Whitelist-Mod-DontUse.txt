@@ -177,7 +177,7 @@ zee.cws.conviva.com
 # General Google API Connectivity
 speechs3proto2-pa.googleapis.com
 safebrowsing.googleapis.com
-searchlabspartnerservice-pa.googleapis.com
+#searchlabspartnerservice-pa.googleapis.com
 federatedcompute-pa.googleapis.com
 ondevicesafety-pa.googleapis.com
 youtubei.googleapis.com
@@ -185,7 +185,7 @@ mobileconfiguration-pa.googleapis.com
 proactivebackend-pa.googleapis.com
 googlehomefoyer-pa.googleapis.com
 xgapromomanager-pa.googleapis.com
-www.googleapis.com
+#www.googleapis.com
 connectivitycheck.android.com
 connectivitycheck.gstatic.com
 cse.google.com
