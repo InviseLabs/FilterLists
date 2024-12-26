@@ -415,17 +415,17 @@ mobile.pipe.aria.microsoft.com
 
 # Office, O365, and Enterprise Functionality
 self.events.data.microsoft.com
-office.com
-office.net
-office365.com
-officeclient.microsoft.com
-nexusrules.officeapps.live.com
+#office.com
+#office.net
+#office365.com
+#officeclient.microsoft.com
+#nexusrules.officeapps.live.com
 1drv.com
-enterprise.activity.windows.com
-outlook.office365.com
-products.office.com
-c.s-microsoft.com
-i.s-microsoft.com
+#enterprise.activity.windows.com
+#outlook.office365.com
+#products.office.com
+#c.s-microsoft.com
+#i.s-microsoft.com
 
 # Xbox Functionality - Found on Reddit
 attestation.xboxlive.com
