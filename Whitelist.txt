@@ -359,6 +359,9 @@ continuum.dds.microsoft.com
 c.s-microsoft.com
 geo-prod.do.dsp.mp.microsoft.com
 
+# Windows Settings Sync
+settings-win.data.microsoft.com
+
 # Microsoft Login
 live.com
 #g.live.com
@@ -425,7 +428,6 @@ eds.xboxlive.com
 help.ui.xboxlive.com
 licensing.xboxlive.com
 notify.xboxlive.com
-settings-win.data.microsoft.com
 title.auth.xboxlive.com
 title.mgt.xboxlive.com
 v10.vortex-win.data.microsoft.com
