@@ -125,6 +125,7 @@ us.recommend.lgtvcommon.com
 us.lgsmartad.com
 us.service.lgtvcommon.com
 
+
 # Philips
 #deviceportal.nettvservices.com # needed for apps
 #epg.corio.com # needed for apps
@@ -132,6 +133,7 @@ legacyportal.nettvservices.com
 nettv.corio.com
 #www.ecdinterface.philips.com # Philips Hue Bridge
 ad.nettvservices.com
+
 
 # Samsung
 abtauthprd.samsungcloudsolution.com
@@ -148,7 +150,6 @@ cdn.samsungcloudsolution.net
 connecttv.pelmorex.com # weather app tracking
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 device-metrics-us.amazon.com
-
 game.internetat.tv
 gld.samsungosp.com
 log-1.samsungacr.com
