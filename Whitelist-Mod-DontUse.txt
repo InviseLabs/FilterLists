@@ -366,10 +366,10 @@ ctldl.windowsupdate.com
 sls.update.microsoft.com
 
 # Windows Settings Sync
-settings-win.data.microsoft.com
+#settings-win.data.microsoft.com
 
 # Windows Location API
-inference.location.live.net
+#inference.location.live.net
 
 # Microsoft Login
 #live.com
