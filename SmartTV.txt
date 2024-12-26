@@ -1,0 +1,328 @@
+##
+# ABOUT
+# Again this is one of those circumstances, similar to the whitelist, where we didn't found a suitable list that blocked things that should be blocked,
+# and many blocked common Samsung APIs and domains, which blocks phone connectivity. This is find if you only have a Samsung TV I guess, but otherwise you don't want that.
+##
+
+# Title: Smart-TV Blocklist for Pi-hole
+# Version: 13July2023v1
+# Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
+# Please help with collecting domains!
+# It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
+# Make sure to also use the extra RegEx list at https://perflyst.github.io/PiHoleBlocklist/regex.list, which helps remove regional LG ad domains among other things.
+
+# Panasonic Viera & panny tv
+0077777700140002.myhomescreen.tv
+cert-test.sandbox.google.com
+
+collect.myhomescreen.tv
+usage.myhomescreen.tv
+
+collect-us-fy2014.myhomescreen.tv
+collect-us-fy2015.myhomescreen.tv
+collect-us-fy2016.myhomescreen.tv
+collect-us-fy2017.myhomescreen.tv
+collect-us-fy2018.myhomescreen.tv
+collect-us-fy2019.myhomescreen.tv
+collect-us-fy2020.myhomescreen.tv
+collect-us-fy2021.myhomescreen.tv
+collect-us-fy2022.myhomescreen.tv
+
+collect-eu-fy2014.myhomescreen.tv
+collect-eu-fy2015.myhomescreen.tv
+collect-eu-fy2017.myhomescreen.tv
+collect-eu-fy2016.myhomescreen.tv
+collect-eu-fy2018.myhomescreen.tv
+collect-eu-fy2019.myhomescreen.tv
+collect-eu-fy2020.myhomescreen.tv
+collect-eu-fy2021.myhomescreen.tv
+collect-eu-fy2022.myhomescreen.tv
+
+usage-eu-fy2014.myhomescreen.tv
+usage-eu-fy2015.myhomescreen.tv
+usage-eu-fy2016.myhomescreen.tv
+usage-eu-fy2017.myhomescreen.tv
+usage-eu-fy2018.myhomescreen.tv
+usage-eu-fy2019.myhomescreen.tv
+usage-eu-fy2020.myhomescreen.tv
+usage-eu-fy2021.myhomescreen.tv
+usage-eu-fy2022.myhomescreen.tv
+usage-us-fy2014.myhomescreen.tv
+usage-us-fy2015.myhomescreen.tv
+usage-us-fy2016.myhomescreen.tv
+usage-us-fy2017.myhomescreen.tv
+usage-us-fy2018.myhomescreen.tv
+usage-us-fy2019.myhomescreen.tv
+usage-us-fy2020.myhomescreen.tv
+usage-us-fy2021.myhomescreen.tv
+usage-us-fy2022.myhomescreen.tv
+
+#mhc-ajax-eu.myhomescreen.tv # internet connection test
+#mhc-ajax-eu-s2.myhomescreen.tv # internet connection test
+#mhc-ajax-us.myhomescreen.tv # internet connection test
+#mhc-eu.myhomescreen.tv # required for internet connectivity
+mhc-sec-eu.myhomescreen.tv
+#mhc-us.myhomescreen.tv # required for internet connectivity
+mhc-sec-us.myhomescreen.tv
+#mhc-xpana-eu.myhomescreen.tv # required to start apps
+#mhc-xpana-eu-s2.myhomescreen.tv # required to start apps
+#mhc-xpana-us.myhomescreen.tv # required to start apps
+#vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
+x2.vindicosuite.com
+
+
+# Sony Bravia
+# needed for applications
+# needed for applications, if blocked error "no internet connection"
+#applicast.ga.sony.net
+#portal.store.sonyentertainmentnetwork.com
+ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+#reg.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#service.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm1.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm2.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm3.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#update.biv.sony.tv # required for updates
+api-mf1.meta.ndmdhs.com
+b02.black.ndmdhs.com
+bravia.dl.playstation.net
+call.me.sel.sony.com
+flingo.tv
+sonybivstatic-a.akamaihd.net
+facemap.foldlife.net
+bdcore-apr-lb.bda.ndmdhs.com
+tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
+api.cid.samba.tv
+#platform.cid.samba.tv #See Toshiba
+preferences.cid.samba.tv
+bravia-cfgdst-ore-pro.bda.ndmdhs.com
+
+# LG
+ad.lgappstv.com
+ibis.lgappstv.com
+jp.rdx2.lgtvsdp.com
+jp.lgtvsdp.com
+jp.info.lgsmartad.com
+lgad.cjpowercast.com.edgesuite.net
+#ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
+smartclip.com
+smartclip.net
+smartshare.lgtvsdp.com
+us.ad.lgsmartad.com
+us.ibs.lgappstv.com
+us.info.lgsmartad.com
+#us.lgtvsdp.com # #117
+us.rdx2.lgtvsdp.com
+yumenetworks.com
+aic-ngfts.lge.com
+us.cdpbeacon.lgtvcommon.com
+us.cdpsvc.lgtvcommon.com
+us.homeprv.lgtvcommon.com
+us.nudge.lgtvcommon.com
+us.rdl.lgtvcommon.com
+us.recommend.lgtvcommon.com
+us.lgsmartad.com
+us.service.lgtvcommon.com
+
+# Philips
+#deviceportal.nettvservices.com # needed for apps
+#epg.corio.com # needed for apps
+legacyportal.nettvservices.com
+nettv.corio.com
+#www.ecdinterface.philips.com # Philips Hue Bridge
+ad.nettvservices.com
+
+# Samsung
+abtauthprd.samsungcloudsolution.com
+#acr0.samsungcloudsolution.com # https://www.reddit.com/r/oisd_blocklist/comments/m6j6fg/oisd_domain_blocklist/h3hulvq
+ad.samsungadhub.com
+ads.samsungads.com
+rtb.adgrx.com
+tvx.adgrx.com
+amauthprd.samsungcloudsolution.com
+api-hub.samsungyosemite.com
+az43064.vo.msecnd.net
+cdn.samsungcloudsolution.net
+#configprd.samsungcloudsolution.net # https://oisd.nl/excludes.php?w=configprd.samsungcloudsolution.net
+connecttv.pelmorex.com # weather app tracking
+Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
+device-metrics-us.amazon.com
+
+game.internetat.tv
+gld.samsungosp.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-3.samsungacr.com
+log-ingestion.samsungacr.com
+log-ingestion-eu.samsungacr.com
+log.internetat.tv
+musicid.samsungcloudsolution.com
+notice.samsungcloudsolution.com
+noticecdn.samsungcloudsolution.com
+noticefile.samsungcloudsolution.com
+oempprd.samsungcloudsolution.com
+oempprd.samsungcloudsolution.net
+prderrordumphsm.samsungcloudsolution.com
+osb-apps-v2.samsungqbe.com
+osb-krsvc.samsungqbe.com
+osb-eusvc.samsungqbe.com
+osb.samsungqbe.com
+pavv.co.kr
+pipeaota.com
+premium-videos.telly.com
+prov.samsungcloudsolution.com
+rd.samsungadhub.com
+rwww.samsungotn.net
+samsungacr.com
+samsungadhub.com
+samsungqbe.com
+targeted-config-test.samsungacr.com
+test.samsungrm.net
+us-api.samsungyosemite.com
+vd.emp.prd.s3.amazonaws.com
+vdterms.samsungcloudsolution.com
+www.samsungrm.net
+vd.contents.prod.eu.s3.amazonaws.com
+data.arqiva.tv
+cloud.arqiva.tv
+ads.aimitv.com
+samsungads.com
+gamespromotion.samsungcloudsolution.com
+tvx.adgrx.com
+
+# Roku
+scribe.logs.roku.com
+midland.logs.roku.com
+austin.logs.roku.com
+cooper.logs.roku.com
+liberty.logs.roku.com
+display.ravm.tv
+ravm.tv
+mobile.logs.roku.com
+
+# Vizio
+# Required for Vizio smart tv features
+#api.vizio.com
+#images.vizio.com
+#announcements.vizio.com # No reason to block this
+
+# HBBTV
+cdn.hbbtv.smartclip.net
+hbbtv-1.eurosport.com
+hbbtv-extern-fe01.sim-technik.de
+hbbtv-track.redbutton.de
+hbbtv.kabeleins.de
+#hbbtv.prosieben.de # Blocks ProSieben apps from starting.
+hbbtv.qvc.de
+#hbbtv.redbutton.de # Blocks ZDF & ProSieben apps from starting.
+hbbtv.rtl2.de
+hbbtv.sat1.de
+hbbtv.sixx.de
+#hbbtv.zdf.de # Blocks ZDF apps from starting.
+hbbtv01p.anixe.net
+hbbtvapp.sonnenklar.tv
+scheduler.hbbtv.smartclip.net
+stats.hbbtv.smartclip.net
+hbbtv.superrtl.de
+p-hbbtv.superrtl.de
+hbbtv.3sat.de
+
+# Other useless connections from Smart-TV
+2mdn.net
+ad.71i.de
+adv.ettoday.net
+advertising.com
+#api.nfl.com # required for NFL Fantasy Football App
+#apicache.vudu.com # needed for Vudu's app, see issue22
+cdn.smartclip.net
+#cdns-content.dzcdn.net # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
+database01p.anixe.net
+de.ioam.de
+#drscdn.500px.org # blocks 500px on desktop
+#geo.opera.com # blocks opera update
+googleads.g.doubleclick.net
+#itv.ard.de # ARD media lib - HBBTV 
+nbc-jite.nbcuni.com
+redbutton-adproxy-lb-prod.redbutton.de
+redbutton-lb-prod.redbutton.de
+redbutton.sim-technik.de
+script.ioam.de
+start.digitaltext.rtl.de
+stats-irl.sxp.smartclip.net
+trvdp.com
+tv-static.scdn.co
+#tv.deezer.com # Breaks Deezer's smart-TV apps.
+xml.opera.com
+api.thetake.com # https://thetake.ai/
+control-zoo-dai-default.tvinteractive.tv
+mcp.tvinteractive.tv
+control2.tvinteractive.tv
+control.tvinteractive.tv
+tvmeta-dynamic.tvinteractive.tv
+alphonso.tv
+tv.ads.spotx.tv
+
+# Netflix
+# secure, api-global, and appboot break Netflix
+#secure.netflix.com                   
+#api-global.netflix.com
+#appboot.netflix.com
+#nrdp.nccp.netflix.com # Netflix playback fails on Humax DTR-T2100 (YouView) STB
+ichnaea.netflix.com
+customerevents.netflix.com
+#nrdp.prod.ftl.netflix.com  # https://oisd.nl/excludes.php?w=nrdp.prod.ftl.netflix.com
+
+
+# Sharp Smart TV using Opera OS (thanks to sml156)
+# time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
+# api.accuweather.com                  # probably not a good idea to block this one
+
+# Hisense Smart TV
+api-gps-em.hismarttv.com
+auth-em.hismarttv.com
+msg-em.hismarttv.com
+api-launcher-em.hismarttv.com
+auth-launcher-em.hismarttv.com
+api-gps-na.hismarttv.com
+auth-na.hismarttv.com
+msg-na.hismarttv.com
+api-launcher-na.hismarttv.com
+auth-launcher-na.hismarttv.com
+unified-ter-na.hismarttv.com
+# These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
+api.us.hismarttv.com
+api.euro.hismarttv.com
+api.eu.hismarttv.com
+
+# SiliconDust HDHomeRun
+#tuner-api.hdhomerun.com # required for firmware update
+#location-api.hdhomerun.com # required for firmware update
+
+# Foxtel Australia cable/satellite set-top box
+_xmpp-client._tcp.managed.xmpp.foxtel.com.au
+managed.xmpp.foxtel.com.au
+foxtel-prod-events.digitalsmiths.net
+e2.resources.foxtel.com.au
+a1.resources.foxtel.com.au
+
+# Yamaha AV receivers
+#avpro.global.yamaha.com # Blocks system updates on RX-V685
+
+# Toshiba
+events.cid.samba.tv
+platform.cid.samba.tv
+#file2fxm.azureedge.net # https://oisd.nl/excludes.php?w=file2fxm.azureedge.net
+7345023508.fxmconnect.com
+7345023508.fxm9485766783.com
+
+# Xioami Mi TV
+mitv.tracking.intl.miui.com
+tracking.intl.miui.com
+data.mistat.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+
+# Android TV (including Nvidia Shield TV)
+androidtvchannels-pa.googleapis.com
+androidtvwatsonfe-pa.googleapis.com
+
