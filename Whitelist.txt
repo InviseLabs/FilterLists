@@ -1,4 +1,12 @@
-# General Whitelist of Common Apps and Services
+##
+# ABOUT
+# The goal of this whitelist is a simple and maintainable list of domains that must be unblocked for the functionality of common APIs, apps and services but WITHOUT allowing telemetry or data collection about the user.
+# This is mainly used by us but we are sharing it with anyone that wants to use it. I found outher whitelists unsuitable - strange things unblocked, no comments, etc. This list aims to be nothing more than a list to allow common services through.
+##
+
+##
+# General Whitelist for Common Apps and Services
+##
 akamaihd.net
 akamaitechnologies.com
 akamaized.net
@@ -127,7 +135,7 @@ cdn-gl.imrworldwide.com
 
 
 ##
-# REQUIRED FOR GOOGLE APIs AND SERVICES CONNECTIVITY
+# REQUIRED FOR: GOOGLE APIs AND SERVICES CONNECTIVITY
 ##
 # General Google API Connectivity
 waa-pa.googleapis.com
