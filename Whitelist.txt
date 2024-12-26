@@ -4,6 +4,7 @@
 # This is mainly used by us but we are sharing it with anyone that wants to use it. I found outher whitelists unsuitable - strange things unblocked, no comments, etc. This list aims to be nothing more than a list to allow common services through.
 ##
 
+
 # Required for: ESPN Watch 
 fpdownload.adobe.com 
 entitlement.auth.adobe.com 
@@ -17,6 +18,7 @@ sp.auth.adobe.com
 media.video-cdn.espn.com
 cdn1.espn.net
 
+
 # Require for: Facebook Messenger, including Business Page Messenger
 scontent-atl3-1.xx.fbcdn.net
 static.xx.fbcdn.net
@@ -24,11 +26,19 @@ edge-chat.messenger.com
 video.xx.fbcdn.net
 messenger.com
 
+
 # Required for: Instagram
 c10r.instagram.com
 instagram.c10r.instagram.com
 i.instagram.com
 instagram.com
+
+
+# Required for: Twitch
+countess.twitch.tv
+pubsub-edge.twitch.tv
+cdn-gl.imrworldwide.com
+
 
 ##
 # General Whitelist for Common Apps and Services
@@ -77,8 +87,7 @@ forums.sonarr.tv
 geo3.ggpht.com
 gfwsl.geforce.com
 giphy.com
-github.com
-github.io
+
 gravatar.com
 hls.ted.com
 i.ytimg.com
@@ -114,7 +123,6 @@ proxy.plex.tv
 proxy02.pop.ord.plex.bz
 pubsub.plex.bz
 pubsub.plex.tv
-raw.githubusercontent.com
 res.cloudinary.com
 s.marketwatch.com
 s.youtube.com
@@ -132,14 +140,14 @@ spclient.wg.spotify.com
 ssl.p.jwpcdn.com
 staging.plex.tv
 status.plex.tv
-t.co
+
 t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
 tawk.to
 tedcdn.com
 themoviedb.com
 thetvdb.com
-tinyurl.com
+
 traffic.libsyn.com
 tvdb2.plex.tv
 tvthemes.plexapp.com
@@ -153,11 +161,17 @@ www.dataplicity.com
 yt3.ggpht.com
 zee.cws.conviva.com
 
+# Not needed because they shouldn't be blocked anyways
+#raw.githubusercontent.com
+#tinyurl.com
+#t.co
+#github.com
+#github.io
 
-# Required for: Twitch
-countess.twitch.tv
-pubsub-edge.twitch.tv
-cdn-gl.imrworldwide.com
+nleditor.osi.office.net
+ecs.office.com
+
+
 
 
 ##
@@ -256,17 +270,8 @@ userlocation.googleapis.com
 storage.live.com
 admin.onedrive.com
 officeclient.microsoft.com
-*.sharepointonline.com
-cdn.sharepointonline.com
-privatecdn.sharepointonline.com
-publiccdn.sharepointonline.com
 spoprod-a.akamaihd.net
-static.sharepointonline.com
-teams.microsoft.com
 *.lync.com
-*.teams.microsoft.com
-broadcast.skype.com
-*.broadcast.skype.com
 *.sfbassets.com
 *.urlp.sfbassets.com
 skypemaprdsitus.trafficmanager.net
@@ -278,13 +283,10 @@ mlccdn.blob.core.windows.net
 aka.ms
 amp.azure.net
 *.users.storage.live.com
-*.skypeforbusiness.com
 *.msedge.net
 compass-ssl.microsoft.com
 *.tenor.com
-*.skype.com
 ajax.aspnetcdn.com
-r3.res.outlook.com
 spoprod-a.akamaihd.net
 *.api.microsoftstream.com
 *.notification.api.microsoftstream.com
@@ -295,9 +297,7 @@ web.microsoftstream.com
 *.officeapps.live.com
 *.online.office.com
 office.live.com
-*.onenote.com
 *.office.net
-*cdn.onenote.net
 *.msftidentity.com
 *.msidentity.com
 account.activedirectory.windowsazure.com
@@ -311,17 +311,9 @@ companymanager.microsoftonline.com
 device.login.microsoftonline.com
 graph.microsoft.com
 graph.windows.net
-login.microsoft.com
-login.microsoftonline.com
-login.microsoftonline-p.com
-login.windows.net
-logincert.microsoftonline.com
-loginex.microsoftonline.com
-login-us.microsoftonline.com
 nexus.microsoftonline-p.com
 passwordreset.microsoftonline.com
 provisioningapi.microsoftonline.com
-logincdn.msauth.net
 *.manage.office.com
 *.protection.office.com
 manage.office.com
@@ -335,11 +327,30 @@ www.office.com
 suite.office.net
 mlccdn.blob.core.windows.net
 
+# SharePoint
+*.sharepointonline.com
+cdn.sharepointonline.com
+privatecdn.sharepointonline.com
+publiccdn.sharepointonline.com
+static.sharepointonline.com
+
+# Teams
+teams.microsoft.com
+*.teams.microsoft.com
+
+# OneNote
+*.onenote.com
+*cdn.onenote.net
+
 # Skype
 ui.skype.com
 apps.skype.com
 apps.skype.com
 pricelist.skype.com
+*.skypeforbusiness.com
+*.broadcast.skype.com
+broadcast.skype.com
+*.skype.com
 
 # Microsoft Updates and Windows Store Functionality
 displaycatalog.mp.microsoft.com
@@ -350,10 +361,17 @@ geo-prod.do.dsp.mp.microsoft.com
 
 # Microsoft Login
 live.com
-login.live.com
-login.microsoftonline.com
+#g.live.com
 microsoftonline.com
-g.live.com
+login.live.com
+login.microsoft.com
+login.microsoftonline.com
+login.microsoftonline-p.com
+login.windows.net
+logincert.microsoftonline.com
+loginex.microsoftonline.com
+login-us.microsoftonline.com
+logincdn.msauth.net
 
 # Microsoft Windows Connect Tests 
 # Blocking these can cause Windows to act strange and think it's not connected to the internet
@@ -368,16 +386,7 @@ win10.ipv6.microsoft.com
 outlook.live.com
 outlook.office365.com
 s.gateway.messenger.live.com
-# Office
-outlook.office365.com
-products.office.com
-c.s-microsoft.com
-i.s-microsoft.com
-login.live.com
-login.microsoftonline.com
 outlook.office.com
-*.outlook.office.com
-outlook.office365.com
 *.outlook.office.com
 smtp.office365.com
 r1.res.office365.com
@@ -405,8 +414,6 @@ outlook.office365.com
 products.office.com
 c.s-microsoft.com
 i.s-microsoft.com
-login.live.com
-login.microsoftonline.com
 
 # Xbox Functionality - Found on Reddit
 attestation.xboxlive.com
