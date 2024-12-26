@@ -86,7 +86,6 @@ driftt.com
 dynupdate.no-ip.com
 ecn.dev.virtualearth.net
 edge.api.brightcove.com
-fonts.gstatic.com
 forums.sonarr.tv
 geo3.ggpht.com
 gfwsl.geforce.com
@@ -171,11 +170,8 @@ zee.cws.conviva.com
 #t.co
 #github.com
 #github.io
-
 nleditor.osi.office.net
 ecs.office.com
-
-
 
 
 ##
@@ -230,7 +226,8 @@ firestore.googleapis.com
 reminders-pa.googleapis.com
 
 # Google Fonts API
-gstaticadssl.l.google.com
+#gstaticadssl.l.google.com
+#fonts.gstatic.com
 
 # Gmail API
 googleapis.l.google.com
