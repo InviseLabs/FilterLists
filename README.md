@@ -1,7 +1,10 @@
 # FilterLists  
-Curated and custom modified adblock filterlists by Invise Labs, created for several unique purposes, such as anti-coinmining. These lists are often curated and merged from other lists to create the best experience possible. piHole, AdGuard, and other adblockers have performance issues when importing too many lists. We are aiming to create merged lists for specific categories. 
+Curated and custom modified adblock filterlists by Invise Labs, created for several unique purposes, such as whitelisting important domains that lists you add might clock, or lists blocking coinmining. These lists are often curated and merged from other lists to create the best experience possible. piHole, AdGuard, and other adblockers have performance issues when importing too many lists. We are aiming to create merged lists for specific categories. 
 <br>
 <br>
+### WhiteList.txt: Safe Whitelisting for different common services and apps.
+Here we attempt to unblock and whitelist domains that are safe and requried for many common apps and services without allowing telemetry.
+
 ### BlockCoin.txt: Blocks Coin Mining
 We have fohnd that many sites using JS-based coin mining craft it to use only 5 to 20% CPU, so that the mining operation remaims undetected. We have found no real way to detect these occurrences, thus we propose that coin mining be blocked by default in the future. Those wishing to utilize mining could either explicitly disable the blocking or allow that local IP.  
 
