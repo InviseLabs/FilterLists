@@ -378,7 +378,6 @@ sls.update.microsoft.com
 
 # Microsoft Login
 #live.com
-#g.live.com
 #microsoftonline.com
 #login.live.com
 #login.microsoft.com
@@ -396,21 +395,26 @@ dns.msftncsi.com
 msftncsi.com
 www.msftconnecttest.com
 www.msftncsi.com
-onedrive.live.com
 win10.ipv6.microsoft.com
+
+# OneDirve
+#g.live.com
+onedrive.live.com
+#oneroute.microsoft.com
+1drv.com
+#1drv.ms
 
 # Microsoft Outlook (Email)
 outlook.live.com
 outlook.office365.com
 s.gateway.messenger.live.com
-outlook.office.com
-*.outlook.office.com
+#outlook.office.com
+#*.outlook.office.com
 smtp.office365.com
 r1.res.office365.com
 r3.res.office365.com
 r4.res.office365.com
 *.outlook.com
-*.outlook.office.com
 attachments.office.net
 *.protection.outlook.com
 *.mail.protection.outlook.com
