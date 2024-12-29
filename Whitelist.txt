@@ -5,11 +5,11 @@
 ##
 
 
-# Required for: ESPN Watch 
+# Required for: ESPN Watch
 fpdownload.adobe.com 
 entitlement.auth.adobe.com 
 livepassdl.conviva.com
-www.espn.com 
+www.espn.com
 a1.espncdn.com
 a2.espncdn.com
 a.espncdn.com
@@ -38,6 +38,8 @@ instagram.com
 countess.twitch.tv
 pubsub-edge.twitch.tv
 cdn-gl.imrworldwide.com
+
+
 # Required for: Plex
 tvdb2.plex.tv
 dashboard.plex.tv
@@ -53,6 +55,11 @@ pubsub.plex.tv
 tvthemes.plexapp.com
 cpms.spop10.ams.plex.bz
 cpms35.spop10.ams.plex.bz
+
+
+# Required for: Microsoft Spotlight API
+# Including downloading or updating spotlight images.
+arc.msn.com
 
 
 ##
