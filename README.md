@@ -4,9 +4,13 @@ Curated and custom modified adblock filterlists by Invise Labs, created for seve
 <br>
 ### WhiteList.txt: Safe Whitelisting for different common services and apps.
 Here we attempt to unblock and whitelist domains that are safe and requried for many common apps and services without allowing telemetry.
+<br>
+<br>
+## Other Block List Options
+This is a list of other *possibly* recommended blocking options, but may come at the cost of reducing functionality that some may use, so these options are not for everyone. However, in our office and on our business PCs we do not use many of these functions and find their use to be inappropriate, so the potential for blocking malicious use far outweights the possible blocking of legit services that we never use in the workplace anyways.
 
 ### BlockCoin.txt: Blocks Coin Mining
-We have fohnd that many sites using JS-based coin mining craft it to use only 5 to 20% CPU, so that the mining operation remaims undetected. We have found no real way to detect these occurrences, thus we propose that coin mining be blocked by default in the future. Those wishing to utilize mining could either explicitly disable the blocking or allow that local IP.  
+We have found many scam sites (and even some legit companies abusing coinmining) using JS-based coin mining crafted to use only 5 - 20% CPU, so that the mining operation remaims undetected. We have found no real way to detect these occurrences as the JS code changes frequently and is obfuscated, thus we propose that if coinmining and cryptocurrency is ***NOT*** in use, then it may be blocked to prevent both dishonest use and malicious use, and should be done network-wide.
 
 BlockCoin.txt is merged from the following lists:  
 https://github.com/black7375/MineBlockFilter/blob/master/MinerBlocker.txt  
