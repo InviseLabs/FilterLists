@@ -1,7 +1,7 @@
 ##
 # ABOUT
 # The goal of this whitelist is a simple and maintainable list of domains that must be unblocked for the functionality of common APIs, apps and services but WITHOUT allowing telemetry or data collection about the user.
-# This is mainly used by us but we are sharing it with anyone that wants to use it. I found outher whitelists unsuitable - strange things unblocked, no comments, etc. This list aims to be nothing more than a list to allow common services through.
+# This is mainly used by us but we are sharing it with anyone that wants to use it. I found other whitelists unsuitable - primarily ude to strange things unblocked, no comments, etc.
 ##
 
 
@@ -9,7 +9,7 @@
 fpdownload.adobe.com 
 entitlement.auth.adobe.com 
 livepassdl.conviva.com
-www.espn.com
+www.espn.com 
 a1.espncdn.com
 a2.espncdn.com
 a.espncdn.com
