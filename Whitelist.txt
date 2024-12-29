@@ -360,6 +360,10 @@ settings-win.data.microsoft.com
 # Windows Location API
 inference.location.live.net
 
+# Required for: Microsoft Windows Spotlight API
+# Including downloading or updating spotlight images.
+arc.msn.com
+
 # Microsoft Login
 live.com
 microsoftonline.com
