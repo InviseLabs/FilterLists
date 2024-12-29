@@ -1,15 +1,15 @@
 ##
 # ABOUT
 # The goal of this whitelist is a simple and maintainable list of domains that must be unblocked for the functionality of common APIs, apps and services but WITHOUT allowing telemetry or data collection about the user.
-# This is mainly used by us but we are sharing it with anyone that wants to use it. I found outher whitelists unsuitable - strange things unblocked, no comments, etc. This list aims to be nothing more than a list to allow common services through.
+# This is mainly used by us but we are sharing it with anyone that wants to use it. I found other whitelists unsuitable - primarily ude to strange things unblocked, no comments, etc.
 #
-# MODIFIED: This version has many things commented out that shouldn't be blocked anyways and get annoying when your adblocker highlights them as whitelisted, which is distracting. 
+# MODIFIED / RECOMMEND YOU USE THE OTHER LIST: I don't recommend using this version, use the other more complete version. This version has many things commented out that our internal blocklists do not touch, whitelisted entries show in green which is distracting and annoying to us.
 # 
 # MOST LIKELY YOU WANT THIS VERSION >> https://github.com/InviseLabs/FilterLists/edit/main/Whitelist.txt
 ##
 
 
-# Required for: ESPN Watch 
+# Required for: ESPN Watch
 fpdownload.adobe.com 
 entitlement.auth.adobe.com 
 livepassdl.conviva.com
@@ -59,6 +59,11 @@ pubsub.plex.tv
 tvthemes.plexapp.com
 cpms.spop10.ams.plex.bz
 cpms35.spop10.ams.plex.bz
+
+
+# Required for: Microsoft Spotlight API
+# Including downloading or updating spotlight images.
+arc.msn.com
 
 
 ##
