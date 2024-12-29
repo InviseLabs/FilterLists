@@ -367,7 +367,6 @@ inference.location.live.net
 
 # Microsoft Login
 live.com
-#g.live.com
 microsoftonline.com
 login.live.com
 login.microsoft.com
@@ -385,8 +384,14 @@ dns.msftncsi.com
 msftncsi.com
 www.msftconnecttest.com
 www.msftncsi.com
-onedrive.live.com
 win10.ipv6.microsoft.com
+
+# OneDrive
+g.live.com
+onedrive.live.com
+oneroute.microsoft.com
+1drv.com
+1drv.ms
 
 # Microsoft Outlook (Email)
 outlook.live.com
