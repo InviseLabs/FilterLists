@@ -57,11 +57,6 @@ cpms.spop10.ams.plex.bz
 cpms35.spop10.ams.plex.bz
 
 
-# Required for: Microsoft Spotlight API
-# Including downloading or updating spotlight images.
-arc.msn.com
-
-
 ##
 # General Whitelist for Common Apps and Services
 ##
@@ -392,6 +387,7 @@ onedrive.live.com
 oneroute.microsoft.com
 1drv.com
 1drv.ms
+onedrive.ms
 
 # Microsoft Outlook (Email)
 outlook.live.com
