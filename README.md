@@ -7,7 +7,7 @@ Here we attempt to unblock and whitelist domains that are safe and requried for 
 <br>
 <br>
 ## Other Block List Options
-This is a list of other *possibly* recommended blocking options, but may come at the cost of reducing functionality that some may use, so these options are not for everyone. However, in our office and on our business PCs we do not use many of these functions and find their use to be inappropriate, so the potential for blocking malicious use far outweights the possible blocking of legit services that we never use in the workplace anyways.
+This is a list of other *possibly* recommended blocking options, but may come at the cost of reducing functionality that some may use, so these options are not for everyone. However, in our office and on our business PCs we do not use many of these functions and find their use to be inappropriate (such as coinmining) in the workplace, so the potential for blocking malicious use far outweights the possible blocking of legit services that we never use in the workplace anyways.
 
 ### BlockCoin.txt: Blocks Coin Mining
 We have found many scam sites (and even some legit companies abusing coinmining) using JS-based coin mining crafted to use only 5 - 20% CPU, so that the mining operation remaims undetected. We have found no real way to detect these occurrences as the JS code changes frequently and is obfuscated, thus we propose that if coinmining and cryptocurrency is ***NOT*** in use, then it may be blocked to prevent both dishonest use and malicious use, and should be done network-wide.
