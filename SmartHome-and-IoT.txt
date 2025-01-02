@@ -9,3 +9,6 @@
 # LAST UPDATED: 12-30-2024
 
 use1-device-telemetry-gw.io
+use2-device-telemetry-gw.io
+use3-device-telemetry-gw.io
+use4-device-telemetry-gw.io
