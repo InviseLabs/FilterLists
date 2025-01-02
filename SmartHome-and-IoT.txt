@@ -1,0 +1,11 @@
+#Smart Home and IoT Filter List
+# This is the initial version of the Smart Home and IoT filter list. Over time, I plan to add more filters and blocks for domains used by Smart Home and IoT devices for telemetry and data collection.
+# This list aims to avoid blocking any user-desired or user-initiated analytics, allowing users to monitor their devices and view desired usage statistics, while also blocking undesired data collection by IoT and Smart Home companies.
+# [>] It's always advised that you attempt to locate any usage reporting options in the associated app for your Smart Home devices and ensure that it's toggled OFF, as a block list is not a complete solution. The app/devices will continue to attempt to request the domains
+# this list is meant as a privacy guard to ensure that apps and devices honor your request or if there are no options to disable usage anayltics.
+#
+# If you find that a domain or IP is blocked and it interferes with user-desired analytics, please check the Issue Reports and Discussions first. Open a new discussion to see if this is already a planned update. If necessary, you can open an Issue Report to formally request the removal of a domain.
+#
+# LAST UPDATED: 12-30-2024
+
+use1-device-telemetry-gw.io
