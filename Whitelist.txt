@@ -388,6 +388,7 @@ win10.ipv6.microsoft.com
 # I hardly think connectivity tests falls under this.
 connectivity-test.static.microsoft
 connectivity-test.usercontent.microsoft
+connectivity-test.cloud.microsoft
 
 # OneDrive
 g.live.com
