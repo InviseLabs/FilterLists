@@ -12,3 +12,7 @@ use1-device-telemetry-gw.io
 use2-device-telemetry-gw.io
 use3-device-telemetry-gw.io
 use4-device-telemetry-gw.io
+use1-device-telemetry-gw.iot.i.tplinknbu.com
+use2-device-telemetry-gw.iot.i.tplinknbu.com
+use3-device-telemetry-gw.iot.i.tplinknbu.com
+use4-device-telemetry-gw.iot.i.tplinknbu.com
