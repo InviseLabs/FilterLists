@@ -371,9 +371,13 @@ sls.update.microsoft.com
 # Windows Location API
 #inference.location.live.net
 
-# Required for: Microsoft Windows Spotlight API
+# Microsoft Windows Spotlight API
 # Including downloading or updating spotlight images.
 arc.msn.com
+
+# Microsoft InTune
+server.events.data.microsoft.com
+
 
 # Microsoft Login
 #live.com
@@ -427,14 +431,14 @@ attachments.office.net
 mobile.pipe.aria.microsoft.com
 
 # Office, O365, and Enterprise Functionality
-self.events.data.microsoft.com
+#self.events.data.microsoft.com
 #office.com
 #office.net
 #office365.com
 #officeclient.microsoft.com
 #nexusrules.officeapps.live.com
 1drv.com
-#enterprise.activity.windows.com
+enterprise.activity.windows.com
 #outlook.office365.com
 #products.office.com
 #c.s-microsoft.com
