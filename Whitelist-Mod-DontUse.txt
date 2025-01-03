@@ -395,6 +395,10 @@ msftncsi.com
 www.msftconnecttest.com
 www.msftncsi.com
 win10.ipv6.microsoft.com
+# I thought Microsoft said they were only using their .microsoft tld for Office, 365, and URLs that mattered in face of the user?
+# I hardly think connectivity tests falls under this.
+connectivity-test.static.microsoft
+connectivity-test.usercontent.microsoft
 
 # OneDrive
 #g.live.com
