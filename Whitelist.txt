@@ -418,7 +418,7 @@ attachments.office.net
 mobile.pipe.aria.microsoft.com
 
 # Office, O365, and Enterprise Functionality
-self.events.data.microsoft.com
+#self.events.data.microsoft.com
 office.com
 office.net
 office365.com
