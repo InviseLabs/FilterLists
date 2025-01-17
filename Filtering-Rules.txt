@@ -1,0 +1,9 @@
+k9# Custom Adblock URL Filtering Rules by Invise Labs
+# Last Updated: Jan 17 2025
+#
+# Description: Custom rules created to help block certain cases where we've noticed apps and websites successfully making web requests and display ads.
+#
+
+||google.com/pagead/
+||google.com/mail/adsfe/
+||google.com/mail/ads*
